@@ -21,10 +21,6 @@ function App() {
           <Route path='editar/:id' element={<EditarCLiente/>}/>
         </Route>
 
-       
-          
-       
-        
       </Routes>
     </BrowserRouter>
   )
