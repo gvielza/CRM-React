@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "dwdwdwd",
+      "empresa": "dwdwdw",
+      "email": "dw@dl.so",
+      "telefono": "3432434",
+      "notas": "",
+      "id": 1
+    },
+    {
+      "nombre": "dwdwdwd",
+      "empresa": "dwdwdw",
+      "email": "dw@dl.so",
+      "telefono": "3432434",
+      "notas": "",
+      "id": 2
+    },
+    {
+      "nombre": "dwdwdwd",
+      "empresa": "dwdwdw",
+      "email": "dw@dl.so",
+      "telefono": "3432434",
+      "notas": "nuevo",
+      "id": 3
+    },
+    {
+      "nombre": "e2e2e",
+      "empresa": "e2d",
+      "email": "d@dll.do",
+      "telefono": "231232",
+      "notas": "ff",
+      "id": 4
+    },
+    {
+      "nombre": "e2e",
+      "empresa": "e2e",
+      "email": "e2@l.d",
+      "telefono": "44",
+      "notas": "",
+      "id": 5
+    }
+  ]
+}

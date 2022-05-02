@@ -1,9 +1,13 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik'
+import {useNavigate} from 'react-router-dom'
 import * as Yup from 'yup'
 import Alerta from './Alerta';
 
 const Formulario = () => {
+//hook para redireccionar
+const navigate=useNavigate()
+
     const nuevoClienteSchema = Yup.object().shape({
         nombre: Yup.string()
                     .min(3, 'El Nombre es muy corto')
@@ -21,8 +25,23 @@ const Formulario = () => {
 
 
     })
-    const handleSUbmit = (valores) => {
-        console.log(valores)
+    const handleSUbmit = async(valores) => {
+        const url="http://localhost:4000/clientes/"
+        try {
+            
+            const respuesta= await fetch(url,{
+              method: 'POST' , 
+              body: JSON.stringify(valores),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+            })
+            const resultado =await respuesta.json()
+            navigate("/clientes")
+
+        } catch (error) {
+            console.log(error)
+        }
     }
     return (
         <div className="bg-white mt-10 px-5 py-10 rounded-md shadow-md 
@@ -35,8 +54,9 @@ const Formulario = () => {
                     email: "",
                     telefono: "",
                     notas: "",
-                }} onSubmit={(values) => {
-                    handleSUbmit(values)
+                }} onSubmit= {async (values,{resetForm}) => {
+                    await handleSUbmit(values)
+                    resetForm()
                 }}
                 validationSchema={nuevoClienteSchema}
 
