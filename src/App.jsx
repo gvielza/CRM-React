@@ -6,6 +6,7 @@ import Inicio from './paginas/Inicio'
 
 import NuevoCliente from './paginas/NuevoCliente'
 import EditarCLiente from './paginas/EditarCliente'
+import VerCliente from './paginas/VerCliente';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Inicio/>}/>
           <Route path='nuevo' element={<NuevoCliente/>}/>
           <Route path='editar/:id' element={<EditarCLiente/>}/>
+          <Route path=':id' element={<VerCliente/>}/>
         </Route>
 
       </Routes>
