@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 
-const Cliente = ({ cliente }) => {
+const Cliente = ({ cliente,handleEliminar }) => {
     const { nombre, empresa, email, telefono, notas, id } = cliente;
     const navigate=useNavigate();
     return (

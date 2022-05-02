@@ -1,52 +1,28 @@
 {
   "clientes": [
     {
-      "nombre": "dwdwdwd",
-      "empresa": "dwdwdw",
-      "email": "dw@dl.so",
-      "telefono": "3432434",
-      "notas": "",
-      "id": 1
-    },
-    {
-      "nombre": "dwdwdwd",
-      "empresa": "dwdwdw",
-      "email": "dw@dl.so",
-      "telefono": "3432434",
-      "notas": "",
-      "id": 2
-    },
-    {
-      "nombre": "dwdwdwd",
-      "empresa": "dwdwdw",
-      "email": "dw@dl.so",
-      "telefono": "3432434",
-      "notas": "nuevo",
-      "id": 3
-    },
-    {
-      "nombre": "e2e2e",
-      "empresa": "e2d",
-      "email": "d@dll.do",
-      "telefono": "231232",
-      "notas": "ff",
-      "id": 4
-    },
-    {
-      "nombre": "e2e",
-      "empresa": "e2e",
-      "email": "e2@l.d",
-      "telefono": "44",
-      "notas": "",
-      "id": 5
-    },
-    {
       "nombre": "gabriela",
       "empresa": "estado",
       "email": "fsfsf@dk.do",
       "telefono": "4444",
       "notas": "",
       "id": 6
+    },
+    {
+      "nombre": "geo",
+      "empresa": "f4f",
+      "email": "r3@dkk.d",
+      "telefono": "4545",
+      "notas": "54",
+      "id": 9
+    },
+    {
+      "nombre": "gegegegeg",
+      "empresa": "geg",
+      "email": "ge@lld.i",
+      "telefono": "35353",
+      "notas": "53",
+      "id": 10
     }
   ]
 }
